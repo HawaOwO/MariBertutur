@@ -5,18 +5,18 @@ public class SebutanPerkataan {
     public static String[] perkataan ={
             "Telur",
             "Dadu",
-            "Pusing",
-            "Solat",
+            "Kotak",
+            "Silat",
             "Beca",
-            "Hilang"
+            "Bunga"
     };
 
     public static String[][] sebutan = {
             {"Te", "Lur"},
             {"Da", "Du"},
-            {"Pu", "Sing"},
-            {"So", "Lat"},
+            {"Ko", "Tak"},
+            {"Si", "Lat"},
             {"Be", "Ca"},
-            {"Hi", "lang"}
+            {"Bu", "Nga"}
     };
 }

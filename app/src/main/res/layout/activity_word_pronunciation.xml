@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1EC77"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/sebutperkataan"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:text="Mari Belajar Sebutan Perkataan"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/sebutan_layout"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/sebutan_1"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Sebutan 1"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/sebutan_2"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="sebutan 2"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/perkataan_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/sebutan_layout">
+
+        <Button
+            android:id="@+id/perkataan"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:text="perkataan" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sebutan_layout"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#EA8E8E"
+        android:text="Seterusnya"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/TTGameToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sebutan_layout"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="#EA8E8E"
+        android:text="Kembali Ke Menu" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="190dp"
+        android:layout_height="164dp"
+        android:layout_below="@+id/sebutperkataan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="73dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>

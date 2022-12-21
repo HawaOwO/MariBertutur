@@ -83,7 +83,7 @@
         android:text="Kembali Ke Menu" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgViewWord"
         android:layout_width="190dp"
         android:layout_height="164dp"
         android:layout_below="@+id/sebutperkataan"

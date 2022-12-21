@@ -33,5 +33,19 @@ public class MainActivity2 extends AppCompatActivity {
             }
             //to able user to play Teka-Teki game when click on the 'Permainan Teka-Teki' Button
         });
+
+        HurufBtn = (Button) findViewById(R.id.button2);
+        HurufBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity2.this, Sebutan_Huruf1.class);
+                startActivity(intent);
+            }
+            //to able user to open Sebutan Huruf page when click on the 'Sebutan Huruf' Button
+        });
+
+
+
+
     }
 }

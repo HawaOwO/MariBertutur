@@ -33,6 +33,8 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
         perkataan.setOnClickListener(this);
         nextWord.setOnClickListener(this);
 
+        loadNewWord();
+
         TTGameToMenu = (Button) findViewById(R.id.TTGameToMenu);
         TTGameToMenu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,9 +48,6 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
 
     @Override
     public void onClick(View view) {
-        sebutan_1.setBackgroundColor(Color.CYAN);
-        sebutan_2.setBackgroundColor(Color.CYAN);
-        perkataan.setBackgroundColor(Color.MAGENTA);
 
         Button clickedBtn = (Button) view;
         if (clickedBtn.getId()==R.id.nextword) {

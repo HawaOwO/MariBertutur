@@ -44,7 +44,14 @@ public class MainActivity2 extends AppCompatActivity {
             //to able user to open Sebutan Huruf page when click on the 'Sebutan Huruf' Button
         });
 
-
+        PerkataanBtn = (Button) findViewById(R.id.button3);
+        PerkataanBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, SebutanPerkataan_activity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

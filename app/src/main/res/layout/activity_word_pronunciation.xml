@@ -5,43 +5,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E1EC77"
+    android:background="#2A3990"
     android:padding="24dp">
 
     <TextView
         android:id="@+id/sebutperkataan"
-        android:layout_width="241dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:textAlignment="center"
-        android:fontFamily="monospace"
-        android:text="Mari Belajar Sebutan Perkataan"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/poppins_bold"
+        android:text="Sebutan Perkataan"
+        android:textSize="25dp"
+        android:textColor="#EA8E8E" />
+
+    <TextView
+        android:id="@+id/arahansebutperkataan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sebutperkataan"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Mari belajar menyebut perkataan dengan mengikut audio!"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textColor="@color/white"/>
 
     <LinearLayout
         android:id="@+id/sebutan_layout"
-        android:layout_width="231dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        android:layout_below="@id/imgViewWord"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp">
 
         <Button
             android:id="@+id/sebutan_1"
-            android:layout_width="103dp"
+            android:layout_width="105dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/teal_200"
-            android:text="Sebutan 1"
-            android:textColor="@color/black" />
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/poppins_bold"
+            android:text="1"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            app:cornerRadius="20dp" />
 
         <Button
             android:id="@+id/sebutan_2"
             android:layout_width="105dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/teal_200"
-            android:text="sebutan 2"
-            android:textColor="@color/black" />
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/poppins_bold"
+            android:text="2"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            app:cornerRadius="20dp" />
 
     </LinearLayout>
 
@@ -49,51 +78,68 @@
         android:id="@+id/perkataan_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_below="@+id/sebutan_layout"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/sebutan_layout">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/perkataan"
-            android:layout_width="222dp"
+            android:layout_width="215dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="37dp"
-            android:text="perkataan" />
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Word"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            app:cornerRadius="20dp"/>
 
     </LinearLayout>
 
+
     <Button
         android:id="@+id/nextword"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/sebutan_layout"
-        android:layout_marginTop="125dp"
-        android:layout_marginBottom="14dp"
+        android:layout_below="@+id/perkataan_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#EA8E8E"
+        android:fontFamily="@font/poppins_bold"
         android:text="Seterusnya"
-        tools:ignore="UnknownId" />
+        android:textSize="16dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        app:cornerRadius="20dp" />
 
     <Button
         android:id="@+id/TTGameToMenu"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sebutan_layout"
-        android:layout_marginTop="180dp"
+        android:layout_below="@id/perkataan_layout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="90dp"
         android:backgroundTint="#EA8E8E"
-        android:text="Kembali Ke Menu" />
+        android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Kembali Ke Menu"
+        android:textSize="16dp"
+        app:cornerRadius="20dp" />
 
     <ImageView
         android:id="@+id/imgViewWord"
-        android:layout_width="190dp"
-        android:layout_height="164dp"
-        android:layout_below="@+id/sebutperkataan"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="99dp"
-        android:layout_marginBottom="73dp"
+        android:layout_width="30mm"
+        android:layout_height="30mm"
+        android:layout_below="@+id/arahansebutperkataan"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+
 
 
 </RelativeLayout>

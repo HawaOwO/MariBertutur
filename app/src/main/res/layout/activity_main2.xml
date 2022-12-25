@@ -68,7 +68,7 @@
         android:layout_marginTop="15dp"
         android:backgroundTint="#EA8E8E"
         android:fontFamily="@font/poppins_bold"
-        android:text="Perimainan Bacaan"
+        android:text="Permainan Bacaan"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"

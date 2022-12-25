@@ -1,9 +1,6 @@
 package com.example.maribertutur;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.graphics.Color;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
@@ -15,7 +12,7 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
     Button sebutan_1, sebutan_2, perkataan, nextWord;
     public Button TTGameToMenu;
 
-    int totalWord = SebutanPerkataan.perkataan.length;
+    //int totalWord = SebutanPerkataan.perkataan.length;
     int currWordIndex = 0;
 
     @Override
@@ -38,7 +35,7 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
         TTGameToMenu = (Button) findViewById(R.id.TTGameToMenu);
         TTGameToMenu.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 //prompts user to go back to the Menu page MainActivity2 when click on the 'Kembali Ke Menu' Button
                 Intent intent = new Intent(SebutanPerkataan_activity.this, MainActivity2.class);
                 startActivity(intent);
@@ -57,10 +54,10 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
     }
 
     void loadNewWord() {
-        if (currWordIndex == totalWord) {
+        /*if (currWordIndex == totalWord) {
             // finishWord();
             return;
-        }
+        }*/
 
         if (currWordIndex == 0) {
             ImageView img = (ImageView)findViewById(R.id.imgViewWord);

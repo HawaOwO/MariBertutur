@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2A3990"
-    android:padding="24dp">
+    android:padding="24dp"
+    tools:context=".SebutanPerkataan_activity">
 
     <TextView
         android:id="@+id/sebutperkataan"

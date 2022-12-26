@@ -34,7 +34,7 @@ public class Sebutan_Huruf_main extends AppCompatActivity {
                 Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf2.class);
                 startActivity(intent);
             }
-            //to able user to go into 'Sebutan Huruf Asas' page when click on 'Sebutan Huruf Asas' Button
+            //to able user to go into "Sebutan Perkataan A" page when click on 'Sebutan Perkataan 'A'' Button
         });
 
         BtnI = (Button) findViewById(R.id.button3);
@@ -44,8 +44,21 @@ public class Sebutan_Huruf_main extends AppCompatActivity {
                 Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf3.class);
                 startActivity(intent);
             }
-            //to able user to go into 'Sebutan Huruf Asas' page when click on 'Sebutan Huruf Asas' Button
+            //to able user to go into "Sebutan Perkataan I" page when click on 'Sebutan Perkataan 'I'' Button
         });
+
+        BtnU = (Button) findViewById(R.id.button4);
+        BtnU.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf4.class);
+                startActivity(intent);
+            }
+            //to able user to go into "Sebutan Perkataan U" page when click on 'Sebutan Perkataan 'U'' Button
+        });
+
+
+
 
 
 

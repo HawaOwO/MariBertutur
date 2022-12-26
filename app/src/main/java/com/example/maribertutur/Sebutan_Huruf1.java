@@ -8,7 +8,7 @@ import android.media.MediaPlayer;
 
 public class Sebutan_Huruf1 extends AppCompatActivity implements View.OnClickListener {
 
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18, btn19,
+    Button btn1, btn2, btn3, btn4, btn5, btn27, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18, btn19,
             btn20, btn21, btn22, btn23, btn24, btn25, btn26;
     MediaPlayer suara;
 
@@ -18,25 +18,7 @@ public class Sebutan_Huruf1 extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_sebutan_huruf1);
 
         btn1 = (Button) findViewById(R.id.btn1);
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                suara = MediaPlayer.create(Sebutan_Huruf1.this,R.raw.huruf_a);
-                suara.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-                    @Override
-                    public void onPrepared(MediaPlayer mediaPlayer) {
-                        suara.start();
-                    }
-                });
-
-                suara.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                    @Override
-                    public void onCompletion(MediaPlayer mediaPlayer) {
-                        suara.release();
-                    }
-                });
-            }
-        });
+        btn1.setOnClickListener(this);
 
         btn2 = (Button) findViewById(R.id.btn2);
         btn2.setOnClickListener(this);
@@ -49,6 +31,9 @@ public class Sebutan_Huruf1 extends AppCompatActivity implements View.OnClickLis
 
         btn5 = (Button) findViewById(R.id.btn5);
         btn5.setOnClickListener(this);
+
+        btn27 = (Button) findViewById(R.id.btn27);
+        btn27.setOnClickListener(this);
 
         btn6 = (Button) findViewById(R.id.btn6);
         btn6.setOnClickListener(this);
@@ -119,8 +104,142 @@ public class Sebutan_Huruf1 extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view) {
 
         switch (view.getId()) {
-            case R.id.btn2:
+            case R.id.btn1:
+                suara = MediaPlayer.create(this, R.raw.huruf_a); //untuk letter A
+                suara.start();
                 break;
+
+            case R.id.btn2:
+                suara = MediaPlayer.create(this, R.raw.huruf_b);
+                suara.start();
+                break;
+
+            case R.id.btn3:
+                suara = MediaPlayer.create(this, R.raw.huruf_c);
+                suara.start();
+                break;
+
+            case R.id.btn4:
+                suara = MediaPlayer.create(this, R.raw.huruf_d);
+                suara.start();
+                break;
+
+            case R.id.btn5:
+                suara = MediaPlayer.create(this, R.raw.huruf_first_e); //untuk bunyi pertama
+                suara.start();
+                break;
+
+            case R.id.btn27:
+                suara = MediaPlayer.create(this, R.raw.huruf_second_e); //bunyi kedua
+                suara.start();
+                break;
+
+            case R.id.btn6:
+                suara = MediaPlayer.create(this, R.raw.huruf_f);
+                suara.start();
+                break;
+
+            case R.id.btn7:
+                suara = MediaPlayer.create(this, R.raw.huruf_g);
+                suara.start();
+                break;
+
+            case R.id.btn8:
+                suara = MediaPlayer.create(this, R.raw.huruf_h);
+                suara.start();
+                break;
+
+            case R.id.btn9:
+                suara = MediaPlayer.create(this, R.raw.huruf_i); //untuk letter A
+                suara.start();
+                break;
+
+            case R.id.btn10:
+                suara = MediaPlayer.create(this, R.raw.huruf_j);
+                suara.start();
+                break;
+
+            case R.id.btn11:
+                suara = MediaPlayer.create(this, R.raw.huruf_k);
+                suara.start();
+                break;
+
+            case R.id.btn12:
+                suara = MediaPlayer.create(this, R.raw.huruf_l);
+                suara.start();
+                break;
+
+            case R.id.btn13:
+                suara = MediaPlayer.create(this, R.raw.huruf_m);
+                suara.start();
+                break;
+
+            case R.id.btn14:
+                suara = MediaPlayer.create(this, R.raw.huruf_n);
+                suara.start();
+                break;
+
+            case R.id.btn15:
+                suara = MediaPlayer.create(this, R.raw.huruf_o);
+                suara.start();
+                break;
+
+            case R.id.btn16:
+                suara = MediaPlayer.create(this, R.raw.huruf_p);
+                suara.start();
+                break;
+
+            case R.id.btn17:
+                suara = MediaPlayer.create(this, R.raw.huruf_q);
+                suara.start();
+                break;
+
+            case R.id.btn18:
+                suara = MediaPlayer.create(this, R.raw.huruf_r);
+                suara.start();
+                break;
+
+            case R.id.btn19:
+                suara = MediaPlayer.create(this, R.raw.huruf_s);
+                suara.start();
+                break;
+
+            case R.id.btn20:
+                suara = MediaPlayer.create(this, R.raw.huruf_t);
+                suara.start();
+                break;
+
+            case R.id.btn21:
+                suara = MediaPlayer.create(this, R.raw.huruf_u);
+                suara.start();
+                break;
+
+            case R.id.btn22:
+                suara = MediaPlayer.create(this, R.raw.huruf_v);
+                suara.start();
+                break;
+
+            case R.id.btn23:
+                suara = MediaPlayer.create(this, R.raw.huruf_w);
+                suara.start();
+                break;
+
+            case R.id.btn24:
+                suara = MediaPlayer.create(this, R.raw.huruf_x);
+                suara.start();
+                break;
+
+            case R.id.btn25:
+                suara = MediaPlayer.create(this, R.raw.huruf_y);
+                suara.start();
+                break;
+
+            case R.id.btn26:
+                suara = MediaPlayer.create(this, R.raw.huruf_z);
+                suara.start();
+                break;
+
+
             default:
                 return;
         }

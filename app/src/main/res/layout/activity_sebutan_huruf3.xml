@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg7"
-    tools:context=".Sebutan_Huruf1"
+    tools:context=".Sebutan_Huruf2"
     android:fillViewport="true">
 
     <LinearLayout
@@ -19,21 +19,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_bold"
-            android:text="Sebutan Huruf Asas"
-            android:textSize="25dp"
+            android:text="Ii"
+            android:textSize="55dp"
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
             android:textColor="@color/white" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/poppins_bold"
-            android:text="* Huruf E mempunyai 2 bunyi."
-            android:textColor="@color/black"
-            android:textSize="16dp" />
 
 
         <GridLayout
@@ -49,7 +39,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="38dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -64,12 +54,12 @@
                         android:id="@+id/btn1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Aa"
+                        android:text="bi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="34sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -79,7 +69,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -94,12 +84,12 @@
                         android:id="@+id/btn2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Bb"
+                        android:text="ci"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -109,7 +99,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -124,12 +114,12 @@
                         android:id="@+id/btn3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Cc"
+                        android:text="di"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -139,7 +129,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="38dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -154,12 +144,12 @@
                         android:id="@+id/btn4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Dd"
+                        android:text="fi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -169,7 +159,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -184,12 +174,12 @@
                         android:id="@+id/btn5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Ee"
+                        android:text="gi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -199,40 +189,11 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn27"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Ee"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
+                app:cardBackgroundColor="@android:color/transparent"
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -244,12 +205,12 @@
                         android:id="@+id/btn6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Ff"
+                        android:text="hi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="34sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -259,8 +220,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="38dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -274,12 +235,12 @@
                         android:id="@+id/btn7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Gg"
+                        android:text="ji"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="33sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -289,7 +250,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -304,12 +265,12 @@
                         android:id="@+id/btn8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Hh"
+                        android:text="ki"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="34sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -319,8 +280,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -334,12 +295,12 @@
                         android:id="@+id/btn9"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Ii"
+                        android:text="li"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -349,8 +310,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="38dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -364,12 +325,12 @@
                         android:id="@+id/btn10"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Jj"
+                        android:text="mi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="30sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -379,7 +340,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -394,12 +355,12 @@
                         android:id="@+id/btn11"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Kk"
+                        android:text="ni"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -409,8 +370,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -424,12 +385,12 @@
                         android:id="@+id/btn12"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Ll"
+                        android:text="pi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -439,8 +400,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="38dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -454,12 +415,12 @@
                         android:id="@+id/btn13"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Mm"
+                        android:text="ri"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="22sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -469,7 +430,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -484,12 +445,12 @@
                         android:id="@+id/btn14"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Nn"
+                        android:text="si"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="34sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -499,8 +460,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -514,12 +475,12 @@
                         android:id="@+id/btn15"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Oo"
+                        android:text="ti"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -529,8 +490,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="38dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -544,12 +505,12 @@
                         android:id="@+id/btn16"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Pp"
+                        android:text="wi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -559,7 +520,7 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
+                app:cardElevation="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
@@ -574,12 +535,12 @@
                         android:id="@+id/btn17"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Qq"
+                        android:text="yi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
@@ -589,8 +550,8 @@
                 android:layout_width="87dp"
                 android:layout_height="91dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/transparent">
 
@@ -604,264 +565,32 @@
                         android:id="@+id/btn18"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/mint"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Rr"
+                        android:text="zi"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
-                        android:textSize="29sp"
+                        android:textSize="35sp"
                         app:cornerRadius="20dp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn19"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Ss"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
 
 
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn20"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Tt"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn21"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Uu"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn22"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Vv"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn23"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Ww"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="38dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn24"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Xx"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn25"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Yy"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="87dp"
-                android:layout_height="91dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/transparent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/btn26"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
-                        android:fontFamily="@font/poppins_bold"
-                        android:text="Zz"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:textSize="29sp"
-                        app:cornerRadius="20dp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
 
 
 
         </GridLayout>
 
 
+
+
+
     </LinearLayout>
+
+
+
+
 
 </ScrollView>

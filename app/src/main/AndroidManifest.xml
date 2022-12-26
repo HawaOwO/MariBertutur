@@ -21,6 +21,27 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Sebutan_Huruf_main"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sebutan_Huruf3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sebutan_Huruf2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Sebutan_Huruf1"
             android:exported="false">
             <meta-data

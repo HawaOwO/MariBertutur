@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MariBertutur</string>
+    <string name= "arahan">
+ 1. Sila pilih bahagian yang anda mahu. \n\n
+
+ 2. Sebutan Huruf - Terdapat 4 bahagian. Untuk setiap bahagian, tekan huruf yang diingini untuk mendengar bunyi sebutan tersebut. Ia akan diulangi sebanyak 2 kali. \n\n
+
+ 3. Sebutan Perkataan - tekan perkataan yang diingini untuk mendengar bunyi sebutan tersebut. \n\n
+
+ 4. Permainan Bacaan - pilih \n\n
+
+ 5. Permainan Teka-Teki - pilih jawapan yang betul berdasarkan gambar yang diberi. Markah akan diberi untuk setiap jawapan betul. \n\n
+
+
+    </string>
+
+
 </resources>

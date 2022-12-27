@@ -49,6 +49,7 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
         Button clickedBtn = (Button) view;
         if (clickedBtn.getId()==R.id.nextword) {
             //prompts user to learn new word after clicking on 'Seterusnya' Button
+            currWordIndex++;
             loadNewWord();
         }
     }

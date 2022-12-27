@@ -12,9 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MariBertutur"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Sebutan_Huruf4"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".SebutanPerkataan_activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sebutan_Huruf_main"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sebutan_Huruf3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sebutan_Huruf2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

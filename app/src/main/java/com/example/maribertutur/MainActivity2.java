@@ -38,7 +38,7 @@ public class MainActivity2 extends AppCompatActivity {
         HurufBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity2.this, Sebutan_Huruf1.class);
+                Intent intent = new Intent(MainActivity2.this, Sebutan_Huruf_main.class);
                 startActivity(intent);
             }
             //to able user to open Sebutan Huruf page when click on the 'Sebutan Huruf' Button

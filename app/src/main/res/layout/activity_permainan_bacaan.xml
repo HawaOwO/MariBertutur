@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#7FD7FE"
     android:padding="24dp"
-    tools:context=".reading_game">
+    tools:context=".Permainan_Bacaan">
 
     <TextView
         android:id="@+id/jumlahSoalan"

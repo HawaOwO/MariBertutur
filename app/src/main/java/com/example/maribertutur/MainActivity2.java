@@ -36,7 +36,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         BacaBtn = (Button) findViewById(R.id.button4);
-        ArahanBtn.setOnClickListener(new View.OnClickListener() {
+        BacaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity2.this, Permainan_Bacaan.class);
@@ -63,6 +63,9 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
 
 
     }

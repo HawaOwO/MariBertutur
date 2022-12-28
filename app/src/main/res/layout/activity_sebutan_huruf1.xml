@@ -64,11 +64,11 @@
                         android:id="@+id/btn1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Aa"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -94,11 +94,11 @@
                         android:id="@+id/btn2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Bb"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -124,11 +124,11 @@
                         android:id="@+id/btn3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Cc"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -154,11 +154,11 @@
                         android:id="@+id/btn4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Dd"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -184,11 +184,11 @@
                         android:id="@+id/btn5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ee"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -214,11 +214,11 @@
                         android:id="@+id/btn27"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ee"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -244,11 +244,11 @@
                         android:id="@+id/btn6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ff"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -274,11 +274,11 @@
                         android:id="@+id/btn7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Gg"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -304,11 +304,11 @@
                         android:id="@+id/btn8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Hh"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -334,11 +334,11 @@
                         android:id="@+id/btn9"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ii"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -364,11 +364,11 @@
                         android:id="@+id/btn10"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Jj"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -394,11 +394,11 @@
                         android:id="@+id/btn11"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Kk"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -424,11 +424,11 @@
                         android:id="@+id/btn12"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ll"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -454,11 +454,11 @@
                         android:id="@+id/btn13"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Mm"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="22sp"
                         app:cornerRadius="20dp" />
 
@@ -484,11 +484,11 @@
                         android:id="@+id/btn14"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Nn"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -514,11 +514,11 @@
                         android:id="@+id/btn15"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Oo"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -544,11 +544,11 @@
                         android:id="@+id/btn16"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Pp"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -574,11 +574,11 @@
                         android:id="@+id/btn17"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Qq"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -604,11 +604,11 @@
                         android:id="@+id/btn18"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Rr"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -634,11 +634,11 @@
                         android:id="@+id/btn19"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ss"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -666,11 +666,11 @@
                         android:id="@+id/btn20"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Tt"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -696,11 +696,11 @@
                         android:id="@+id/btn21"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Uu"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -726,11 +726,11 @@
                         android:id="@+id/btn22"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Vv"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -756,11 +756,11 @@
                         android:id="@+id/btn23"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Ww"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="22sp"
                         app:cornerRadius="20dp" />
 
@@ -786,11 +786,11 @@
                         android:id="@+id/btn24"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Xx"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -816,11 +816,11 @@
                         android:id="@+id/btn25"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Yy"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 
@@ -846,11 +846,11 @@
                         android:id="@+id/btn26"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="@color/orange"
                         android:fontFamily="@font/poppins_bold"
                         android:text="Zz"
                         android:textAllCaps="false"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="29sp"
                         app:cornerRadius="20dp" />
 

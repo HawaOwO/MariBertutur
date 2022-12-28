@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg7" >
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/titleapp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="145dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="297dp"
@@ -21,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/FirstPage"

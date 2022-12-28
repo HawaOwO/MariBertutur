@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2A3990"
+    android:background="@drawable/bgsebutanperkataan"
     android:padding="24dp"
     tools:context=".SebutanPerkataan_activity">
 
@@ -14,12 +14,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:textAlignment="center"
-        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="25dp"
         android:text="Sebutan Perkataan"
-        android:textSize="25dp"
-        android:textColor="#EA8E8E" />
+        android:fontFamily="@font/jellybelly_regular"
+        android:textColor="#DE4439"
+        android:textAlignment="center"
+        android:textSize="33dp" />
 
     <TextView
         android:id="@+id/arahansebutperkataan"
@@ -31,7 +31,7 @@
         android:text="Mari belajar menyebut perkataan dengan mengikut audio!"
         android:textAlignment="center"
         android:textSize="16dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:id="@+id/sebutan_layout"
@@ -41,39 +41,51 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="20dp">
 
-        <Button
-            android:id="@+id/sebutan_1"
+        <androidx.cardview.widget.CardView
             android:layout_width="105dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
-            android:backgroundTint="@color/green"
-            android:fontFamily="@font/poppins_bold"
-            android:text="1"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="25dp"
-            app:cornerRadius="20dp" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="9dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_margin="5dp">
 
-        <Button
-            android:id="@+id/sebutan_2"
+            <Button
+                android:id="@+id/sebutan_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/green"
+                android:fontFamily="@font/poppins_bold"
+                android:text="1"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:cornerRadius="20dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:layout_width="105dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
-            android:backgroundTint="@color/green"
-            android:fontFamily="@font/poppins_bold"
-            android:text="2"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="25dp"
-            app:cornerRadius="20dp" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="9dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/sebutan_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/green"
+                android:fontFamily="@font/poppins_bold"
+                android:text="2"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:cornerRadius="20dp" />
+        </androidx.cardview.widget.CardView>
+
 
     </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/perkataan_layout"
@@ -83,20 +95,28 @@
         android:layout_centerInParent="true"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/perkataan"
+        <androidx.cardview.widget.CardView
             android:layout_width="215dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
             android:layout_marginTop="8dp"
-            android:layout_marginRight="5dp"
-            android:backgroundTint="@color/green"
-            android:fontFamily="@font/poppins_bold"
-            android:text="Word"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
-            android:textSize="25dp"
-            app:cornerRadius="20dp"/>
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/perkataan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/green"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Word"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:cornerRadius="20dp" />
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
@@ -137,7 +157,7 @@
         android:layout_height="30mm"
         android:layout_below="@+id/arahansebutperkataan"
         android:layout_centerInParent="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="55dp"
         tools:srcCompat="@tools:sample/avatars" />
 
 

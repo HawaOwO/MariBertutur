@@ -34,6 +34,17 @@ public class MainActivity2 extends AppCompatActivity {
             //to able user to play Teka-Teki game when click on the 'Permainan Teka-Teki' Button
         });
 
+
+        BacaBtn = (Button) findViewById(R.id.button4);
+        ArahanBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity2.this, Permainan_Bacaan.class);
+                startActivity(intent);
+            }
+            //to able user to read the instruction when click on the 'Arahan' Button
+        });
+
         HurufBtn = (Button) findViewById(R.id.button2);
         HurufBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -54,6 +54,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".Permainan_Bacaan"
             android:exported="false">
@@ -61,6 +62,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".TekaGame"
             android:exported="false">

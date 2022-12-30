@@ -19,7 +19,7 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
     Button ansA, ansB, ansC, ansD;
     Button submitBtn;
     public Button TTGameBtn;
-    MediaPlayer suara;
+    MediaPlayer suara, finishing;
 
 
     int score=0;
@@ -228,8 +228,12 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
         String passStatus = "";
         if(score > totalQuestion*0.60){
             passStatus = "Lulus";
+            finishing = MediaPlayer.create(this, R.raw.game_teka_lulus);
+            finishing.start();
         }else{
             passStatus = "Gagal";
+            finishing = MediaPlayer.create(this, R.raw.game_teka_gagal);
+            finishing.start();
         }
 
         new AlertDialog.Builder(this)

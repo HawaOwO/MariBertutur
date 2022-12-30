@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import android.app.Activity;
 import android.content.Intent;
-
+import android.media.MediaPlayer;
 
 public class TekaGame extends AppCompatActivity implements View.OnClickListener{
 
@@ -19,6 +19,7 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
     Button ansA, ansB, ansC, ansD;
     Button submitBtn;
     public Button TTGameBtn;
+    MediaPlayer suara;
 
 
     int score=0;
@@ -45,7 +46,7 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
         ansD.setOnClickListener(this);
         submitBtn.setOnClickListener(this);
 
-        totalQuestionsTextView.setText("Jumlah Soalan : "+totalQuestion);
+        //totalQuestionsTextView.setText("Jumlah Soalan : "+totalQuestion);
 
         loadNewQuestion();
 
@@ -82,6 +83,104 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
             //choices button clicked
             selectedAnswer  = clickedButton.getText().toString();
             clickedButton.setBackgroundColor(Color.WHITE);
+            if(currentQuestionIndex==0)
+            {
+                switch(view.getId()){
+                    case R.id.ans_A:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_kucing);
+                        suara.start();
+                        break;
+                    case R.id.ans_B:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_anjing);
+                        suara.start();
+                        break;
+                    case R.id.ans_C:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_lembu);
+                        suara.start();
+                        break;
+                    case R.id.ans_D:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_ayam);
+                        suara.start();
+                        break;
+                    default:
+                        return;
+
+                }
+
+            }
+            else if(currentQuestionIndex==1)
+            {
+                switch(view.getId()){
+                    case R.id.ans_A:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_kerusi);
+                        suara.start();
+                        break;
+                    case R.id.ans_B:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_rumah);
+                        suara.start();
+                        break;
+                    case R.id.ans_C:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_orang);
+                        suara.start();
+                        break;
+                    case R.id.ans_D:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_haiwan);
+                        suara.start();
+                        break;
+                    default:
+                        return;
+
+                }
+
+            }
+            else if(currentQuestionIndex==2)
+            {
+                switch(view.getId()){
+                    case R.id.ans_A:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_bayi);
+                        suara.start();
+                        break;
+                    case R.id.ans_B:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_anak);
+                        suara.start();
+                        break;
+                    case R.id.ans_C:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_wanita);
+                        suara.start();
+                        break;
+                    case R.id.ans_D:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_lelaki);
+                        suara.start();
+                        break;
+                    default:
+                        return;
+
+                }
+            }
+            else if(currentQuestionIndex==3)
+            {
+                switch(view.getId()){
+                    case R.id.ans_A:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_lima);
+                        suara.start();
+                        break;
+                    case R.id.ans_B:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_enam);
+                        suara.start();
+                        break;
+                    case R.id.ans_C:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_satu);
+                        suara.start();
+                        break;
+                    case R.id.ans_D:
+                        suara = MediaPlayer.create(this, R.raw.game_teka_tiga);
+                        suara.start();
+                        break;
+                    default:
+                        return;
+
+                }
+            }
 
         }
 

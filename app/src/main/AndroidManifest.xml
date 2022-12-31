@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MariBertutur"
         tools:targetApi="31">
         <activity
+            android:name=".Testing"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Sebutan_Huruf4"
             android:exported="false">
             <meta-data
@@ -54,7 +61,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".Permainan_Bacaan"
             android:exported="false">
@@ -62,7 +68,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".TekaGame"
             android:exported="false">

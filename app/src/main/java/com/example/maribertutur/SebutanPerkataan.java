@@ -3,20 +3,22 @@ package com.example.maribertutur;
 public class SebutanPerkataan {
 
     public static String[] perkataan ={
-            "Telur",
             "Dadu",
-            "Kotak",
-            "Silat",
+            "Naga",
+            "Cili",
+            "Tebu",
             "Beca",
-            "Bunga"
+            "Muka",
+            "Yoyo"
     };
 
     public static String[][] sebutan = {
-            {"Te", "Lur"},
             {"Da", "Du"},
-            {"Ko", "Tak"},
-            {"Si", "Lat"},
+            {"Na", "Ga"},
+            {"Ci", "Li"},
+            {"Te", "Bu"},
             {"Be", "Ca"},
-            {"Bu", "Nga"}
+            {"Mu", "Ka"},
+            {"Yo", "Yo"}
     };
 }

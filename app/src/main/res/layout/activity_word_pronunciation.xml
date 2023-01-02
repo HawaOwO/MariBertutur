@@ -14,12 +14,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="30dp"
         android:text="Sebutan Perkataan"
         android:fontFamily="@font/jellybelly_regular"
         android:textColor="#DE4439"
         android:textAlignment="center"
-        android:textSize="33dp" />
+        android:textSize="35dp" />
 
     <TextView
         android:id="@+id/arahansebutperkataan"
@@ -157,7 +157,7 @@
         android:layout_height="30mm"
         android:layout_below="@+id/arahansebutperkataan"
         android:layout_centerInParent="true"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="80dp"
         tools:srcCompat="@tools:sample/avatars" />
 
 

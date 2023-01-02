@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/extrabg"
+    android:padding="24dp"
+    tools:context=".AfterBelajarInterface">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/animhabisbelajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/animhabisbelajar"/>
+
+    <TextView
+        android:id="@+id/pelajarantamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/animhabisbelajar"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="#FCD500"
+        android:text="Pelajaran tamat!" />
+
+    <Button
+        android:id="@+id/BackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pelajarantamat"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#EA8E8E"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Kembali Ke Menu"
+        android:textSize="16sp"
+        app:cornerRadius="20dp" />
+</RelativeLayout>

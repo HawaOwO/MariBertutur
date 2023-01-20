@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickListener {
@@ -22,14 +21,13 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
     int scoreReading=0;
     int totalQuestionReading = QuestionAnswerReading.question.length;
     int currentQuestionIndexReading = 0;
-    String selectedAnswerReading = "";
+    String selectedAnswerReading = " ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permainan_bacaan);
 
-        totalQuestionView = findViewById(R.id.jumlahSoalan);
         questionTextViewReading = findViewById(R.id.questionReadingGame);
         answerA = findViewById(R.id.answerOneRead);
         answerB = findViewById(R.id.answerTwoRead);
@@ -43,7 +41,6 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
         answerD.setOnClickListener(this);
         submitButton.setOnClickListener(this);
 
-        totalQuestionView.setText("Jumlah Soalan: " +totalQuestionReading);
 
         loadNewQuestion();
 
@@ -61,10 +58,10 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View view) {
 
-        answerA.setBackgroundColor(Color.CYAN);
-        answerB.setBackgroundColor(Color.CYAN);
-        answerC.setBackgroundColor(Color.CYAN);
-        answerD.setBackgroundColor(Color.CYAN);
+        answerA.setBackgroundColor(Color.YELLOW);
+        answerB.setBackgroundColor(Color.YELLOW);
+        answerC.setBackgroundColor(Color.YELLOW);
+        answerD.setBackgroundColor(Color.YELLOW);
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId() == R.id.next){
@@ -90,18 +87,16 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
 
         if(currentQuestionIndexReading == 0)
         {
-            ImageView imgView = (ImageView)findViewById(R.id.imageView);
+            ImageView imgView = (ImageView) findViewById(R.id.imageView);
             imgView.setBackgroundResource(R.drawable.buku);
-
-            ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
+            ImageView imgView2 = (ImageView) findViewById(R.id.imageView2);
             imgView2.setBackgroundResource(R.drawable.kek);
-
-            ImageView imgView3 = (ImageView)findViewById(R.id.imageView3);
+            ImageView imgView3 = (ImageView) findViewById(R.id.imageView4);
             imgView3.setBackgroundResource(R.drawable.kereta);
-
-            ImageView imgView4 = (ImageView)findViewById(R.id.imageView4);
+            ImageView imgView4 = (ImageView) findViewById(R.id.imageView5);
             imgView4.setBackgroundResource(R.drawable.pensel);
         }
+
 
         else if(currentQuestionIndexReading == 1)
         {
@@ -111,10 +106,10 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
             ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
             imgView2.setBackgroundResource(R.drawable.oren);
 
-            ImageView imgView3 = (ImageView)findViewById(R.id.imageView3);
+            ImageView imgView3 = (ImageView)findViewById(R.id.imageView4);
             imgView3.setBackgroundResource(R.drawable.anggur);
 
-            ImageView imgView4 = (ImageView)findViewById(R.id.imageView4);
+            ImageView imgView4 = (ImageView)findViewById(R.id.imageView5);
             imgView4.setBackgroundResource(R.drawable.pisang);
         }
 
@@ -126,10 +121,10 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
             ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
             imgView2.setBackgroundResource(R.drawable.bicycle);
 
-            ImageView imgView3 = (ImageView)findViewById(R.id.imageView3);
+            ImageView imgView3 = (ImageView)findViewById(R.id.imageView4);
             imgView3.setBackgroundResource(R.drawable.airplane);
 
-            ImageView imgView4 = (ImageView)findViewById(R.id.imageView4);
+            ImageView imgView4 = (ImageView)findViewById(R.id.imageView5);
             imgView4.setBackgroundResource(R.drawable.computer);
         }
 
@@ -141,10 +136,10 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
             ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
             imgView2.setBackgroundResource(R.drawable.cawan);
 
-            ImageView imgView3 = (ImageView)findViewById(R.id.imageView3);
+            ImageView imgView3 = (ImageView)findViewById(R.id.imageView4);
             imgView3.setBackgroundResource(R.drawable.pinggan);
 
-            ImageView imgView4 = (ImageView)findViewById(R.id.imageView4);
+            ImageView imgView4 = (ImageView)findViewById(R.id.imageView5);
             imgView4.setBackgroundResource(R.drawable.teapot);
         }
 
@@ -177,12 +172,3 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
         loadNewQuestion();
     }
 }
-
-
-
-
-
-
-
-
-

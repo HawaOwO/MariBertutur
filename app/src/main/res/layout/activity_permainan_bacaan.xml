@@ -1,47 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#7FD7FE"
+    android:background="@drawable/bg10"
     android:padding="24dp"
+    android:layout_height="match_parent"
     tools:context=".Permainan_Bacaan">
 
-    <TextView
-        android:id="@+id/jumlahSoalan"
-        android:layout_width="192dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="90dp"
-        android:fontFamily="monospace"
-        android:text="Jumlah Soalan: "
-        android:textAlignment="center"
-        android:textSize="20dp" />
+
 
     <TextView
         android:id="@+id/questionReadingGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="10dp"
         android:text="This is the question of reading game"
         android:textAlignment="center"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="190dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:textSize="30dp"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:fontFamily="@font/jellybelly_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
 
     <Button
         android:id="@+id/answerOneRead"
@@ -49,66 +31,45 @@
         android:layout_height="50dp"
         android:layout_above="@+id/imageView"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginBottom="-185dp"
-        android:backgroundTint="#DD9687"
+        android:backgroundTint="#FFFF00"
         android:text="A"
-        android:textColor="#FFFFFF"  />
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <Button
         android:id="@+id/answerTwoRead"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_above="@+id/imageView2"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="152dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="-185dp"
-        android:backgroundTint="#DD9687"
-        android:text="B" />
+        android:backgroundTint="#FFFF00"
+        android:text="B"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
 
-
-    <Button
-        android:id="@+id/answerThreeRead"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/imageView4"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginBottom="6dp"
-        android:backgroundTint="#DD9687"
-        android:text="C" />
-
-    <Button
-        android:id="@+id/answerFourRead"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/imageView5"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="6dp"
-        android:backgroundTint="#DD9687"
-        android:text="D" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginBottom="190dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="190dp"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -116,9 +77,72 @@
         android:layout_height="110dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="190dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <Button
+        android:id="@+id/answerThreeRead"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#FFFF00"
+        android:text="C"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <Button
+        android:id="@+id/answerFourRead"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#FFFF00"
+        android:text="D"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -128,24 +152,33 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="40dp"
         android:backgroundTint="#495ED3"
         android:text="Kembali ke Menu"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"  />
+        android:textColor="#FFFFFF"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
     <Button
         android:id="@+id/next"
-        android:layout_width="102dp"
+        android:layout_width="220dp"
         android:layout_height="50dp"
         android:layout_above="@+id/menu"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="10dp"
         android:backgroundTint="#689E38"
-        android:text="Submit" />
-</RelativeLayout>
+        android:text="Hantar"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

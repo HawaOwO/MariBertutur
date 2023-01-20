@@ -5,22 +5,35 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:background="#E1EC77"
+android:background="@drawable/bg7"
 android:padding="24dp"
 tools:context=".TekaGame">
 
-<TextView
+    <TextView
     android:id="@+id/total_question"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
     android:fontFamily="monospace"
-    android:text="Jumlah Soalan :  "
+    android:text=" "
     android:textSize="20dp"
     android:textStyle="bold" />
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/game_teka_header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
 
-<TextView
+    <TextView
     android:id="@+id/question"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -45,10 +58,11 @@ tools:context=".TekaGame">
 
     <Button
         android:id="@+id/ans_A"
-        android:layout_width="363dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:backgroundTint="@color/teal_200"
+        app:cornerRadius="20dp"
         android:text="Ans A"
         android:textColor="@color/black" />
 
@@ -58,6 +72,7 @@ tools:context=".TekaGame">
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:backgroundTint="@color/teal_200"
+        app:cornerRadius="20dp"
         android:text="Ans B"
         android:textColor="@color/black" />
 
@@ -67,6 +82,7 @@ tools:context=".TekaGame">
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:backgroundTint="@color/teal_200"
+        app:cornerRadius="20dp"
         android:text="Ans C"
         android:textColor="@color/black" />
 
@@ -76,6 +92,7 @@ tools:context=".TekaGame">
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:backgroundTint="@color/teal_200"
+        app:cornerRadius="20dp"
         android:text="Ans D"
         android:textColor="@color/black" />
 
@@ -87,6 +104,7 @@ tools:context=".TekaGame">
     android:layout_height="wrap_content"
     android:layout_below="@id/choices_layout"
     android:layout_marginTop="40dp"
+    app:cornerRadius="20dp"
     android:text="Submit" />
 
 <Button
@@ -96,6 +114,7 @@ tools:context=".TekaGame">
     android:layout_below="@id/choices_layout"
     android:layout_marginTop="150dp"
     android:backgroundTint="#EA8E8E"
+    app:cornerRadius="20dp"
     android:text="Kembali Ke Menu" />
 
 <ImageView

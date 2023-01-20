@@ -45,6 +45,7 @@ public class SebutanPerkataan_activity extends AppCompatActivity implements View
                 //prompts user to go back to the Menu page MainActivity2 when click on the 'Kembali Ke Menu' Button
                 Intent intent = new Intent(SebutanPerkataan_activity.this, MainActivity2.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
     }

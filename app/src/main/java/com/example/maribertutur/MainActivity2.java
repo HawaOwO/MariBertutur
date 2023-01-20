@@ -20,6 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity2.this, Instruction.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         //to able user to read the instruction when click on the 'Arahan' Button
         });
@@ -30,6 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity2.this, TekaGame.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
             //to able user to play Teka-Teki game when click on the 'Permainan Teka-Teki' Button
         });
@@ -41,8 +43,9 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity2.this, Permainan_Bacaan.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
-            //to able user to read the instruction when click on the 'Arahan' Button
+            //to able user to open Permainan Bacaan page when click on the 'Permainan Bacaan' Button
         });
 
         HurufBtn = (Button) findViewById(R.id.button2);
@@ -51,6 +54,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity2.this, Sebutan_Huruf_main.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
             //to able user to open Sebutan Huruf page when click on the 'Sebutan Huruf' Button
         });
@@ -61,12 +65,15 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, SebutanPerkataan_activity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
+    }
 
-
-
-
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

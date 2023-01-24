@@ -1,16 +1,20 @@
 package com.example.maribertutur;
 
+import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
+import android.widget.ImageButton;
 
 public class Sebutan_Huruf1 extends AppCompatActivity implements View.OnClickListener {
 
     Button btn1, btn2, btn3, btn4, btn5, btn27, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18, btn19,
             btn20, btn21, btn22, btn23, btn24, btn25, btn26;
     MediaPlayer suara;
+    ImageButton playBtn, pauseBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +101,25 @@ public class Sebutan_Huruf1 extends AppCompatActivity implements View.OnClickLis
 
         btn26 = (Button) findViewById(R.id.btn26);
         btn26.setOnClickListener(this);
+
+
+        playBtn = (ImageButton) findViewById(R.id.imageBtn1);
+        playBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(Sebutan_Huruf1.this, MusicService.class);
+                startService(serviceIntent);
+            }
+        });
+
+        pauseBtn = (ImageButton) findViewById(R.id.imageBtn2);
+        pauseBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(Sebutan_Huruf1.this, MusicService.class);
+                stopService(serviceIntent);
+            }
+        });
 
     }
 

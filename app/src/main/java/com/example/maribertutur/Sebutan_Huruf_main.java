@@ -23,6 +23,7 @@ public class Sebutan_Huruf_main extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf1.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
             //to able user to go into 'Sebutan Huruf Asas' page when click on 'Sebutan Huruf Asas' Button
         });
@@ -33,6 +34,7 @@ public class Sebutan_Huruf_main extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf2.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
             //to able user to go into "Sebutan Perkataan A" page when click on 'Sebutan Perkataan 'A'' Button
         });
@@ -43,6 +45,7 @@ public class Sebutan_Huruf_main extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf3.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
             //to able user to go into "Sebutan Perkataan I" page when click on 'Sebutan Perkataan 'I'' Button
         });
@@ -53,6 +56,7 @@ public class Sebutan_Huruf_main extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Sebutan_Huruf_main.this, Sebutan_Huruf4.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
             //to able user to go into "Sebutan Perkataan U" page when click on 'Sebutan Perkataan 'U'' Button
         });

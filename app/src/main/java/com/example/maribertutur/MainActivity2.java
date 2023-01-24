@@ -5,9 +5,11 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageButton;
 
 public class MainActivity2 extends AppCompatActivity {
     public Button ArahanBtn, HurufBtn, PerkataanBtn, BacaBtn, TekaBtn;
+    ImageButton playBtn, pauseBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,24 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity2.this, SebutanPerkataan_activity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+            }
+        });
+
+        playBtn = (ImageButton) findViewById(R.id.imageButton);
+        playBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(MainActivity2.this, MusicService.class);
+                startService(serviceIntent);
+            }
+        });
+
+        pauseBtn = (ImageButton) findViewById(R.id.imageButton2);
+        pauseBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(MainActivity2.this, MusicService.class);
+                stopService(serviceIntent);
             }
         });
 

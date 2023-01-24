@@ -56,7 +56,6 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
             public void onClick(View v){
                 Intent intent = new Intent(TekaGame.this, MainActivity2.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
             //to able user to go back to the Menu page aka MainActivity2 when click on the 'Kembali Ke Menu' Button
         });

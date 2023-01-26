@@ -71,7 +71,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        playBtn = (ImageButton) findViewById(R.id.imageButton);
+        playBtn = (ImageButton) findViewById(R.id.sound2);
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,7 +80,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        pauseBtn = (ImageButton) findViewById(R.id.imageButton2);
+        pauseBtn = (ImageButton) findViewById(R.id.sound22);
         pauseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -2,10 +2,6 @@ package com.example.maribertutur;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.ServiceConnection;
-import android.os.IBinder;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
@@ -22,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FirstBtn = (Button) findViewById(R.id.FirstPage);
+        FirstBtn = (Button) findViewById(R.id.registerBtn);
         FirstBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, Register.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
-        playBtn = (ImageButton) findViewById(R.id.imageButton);
+        playBtn = (ImageButton) findViewById(R.id.sound2);
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        pauseBtn = (ImageButton) findViewById(R.id.imageButton2);
+        pauseBtn = (ImageButton) findViewById(R.id.sound22);
         pauseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

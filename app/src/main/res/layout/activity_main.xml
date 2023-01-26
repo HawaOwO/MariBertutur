@@ -22,7 +22,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/FirstPage"
+        android:id="@+id/registerBtn"
         android:layout_width="205dp"
         android:layout_height="59dp"
         android:layout_marginBottom="264dp"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.72" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/sound2"
         android:layout_width="50dp"
         android:layout_height="43dp"
         android:backgroundTint="#00FFFFFF"
@@ -63,7 +63,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/sound22"
         android:layout_width="44dp"
         android:layout_height="43dp"
         android:backgroundTint="#00FFFFFF"

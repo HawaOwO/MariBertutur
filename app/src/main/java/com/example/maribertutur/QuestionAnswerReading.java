@@ -4,10 +4,10 @@ public class QuestionAnswerReading {
 
 
     public static String question[] = {
-            "Pilih gambar buku",
-            "Pilih gambar buah oren",
-            "Pilih gambar komputer",
-            "Pilih gambar botol"
+            "Bas",
+            "Aiskrim",
+            "Topi",
+            "Lembu"
     };
 
     public static String choices[][] = {

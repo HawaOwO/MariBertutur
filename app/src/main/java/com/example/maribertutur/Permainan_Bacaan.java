@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,7 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
     TextView questionTextViewReading;
     Button answerA, answerB, answerC, answerD;
     Button submitButton;
+    ImageButton playBtn, pauseBtn;
     public Button gameButton;
 
     int scoreReading=0;
@@ -53,6 +55,24 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
             }
             // to able user to go back to the main menu
         });
+
+        playBtn = (ImageButton) findViewById(R.id.playbutton);
+        playBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(Permainan_Bacaan.this, MusicService.class);
+                startService(serviceIntent);
+            }
+        });
+
+        pauseBtn = (ImageButton) findViewById(R.id.pausebutton);
+        pauseBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(Permainan_Bacaan.this, MusicService.class);
+                stopService(serviceIntent);
+            }
+        });
     }
 
     @Override
@@ -88,59 +108,59 @@ public class Permainan_Bacaan extends AppCompatActivity implements View.OnClickL
         if(currentQuestionIndexReading == 0)
         {
             ImageView imgView = (ImageView) findViewById(R.id.imageView);
-            imgView.setBackgroundResource(R.drawable.buku);
+            imgView.setBackgroundResource(R.drawable.bus);
             ImageView imgView2 = (ImageView) findViewById(R.id.imageView2);
-            imgView2.setBackgroundResource(R.drawable.kek);
+            imgView2.setBackgroundResource(R.drawable.rocket);
             ImageView imgView3 = (ImageView) findViewById(R.id.imageView4);
-            imgView3.setBackgroundResource(R.drawable.kereta);
+            imgView3.setBackgroundResource(R.drawable.car);
             ImageView imgView4 = (ImageView) findViewById(R.id.imageView5);
-            imgView4.setBackgroundResource(R.drawable.pensel);
+            imgView4.setBackgroundResource(R.drawable.truck);
         }
 
 
         else if(currentQuestionIndexReading == 1)
         {
             ImageView imgView = (ImageView)findViewById(R.id.imageView);
-            imgView.setBackgroundResource(R.drawable.epal);
+            imgView.setBackgroundResource(R.drawable.burger);
 
             ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
-            imgView2.setBackgroundResource(R.drawable.oren);
+            imgView2.setBackgroundResource(R.drawable.icecream);
 
             ImageView imgView3 = (ImageView)findViewById(R.id.imageView4);
-            imgView3.setBackgroundResource(R.drawable.anggur);
+            imgView3.setBackgroundResource(R.drawable.peas);
 
             ImageView imgView4 = (ImageView)findViewById(R.id.imageView5);
-            imgView4.setBackgroundResource(R.drawable.pisang);
+            imgView4.setBackgroundResource(R.drawable.candy);
         }
 
         else if(currentQuestionIndexReading == 2)
         {
             ImageView imgView = (ImageView)findViewById(R.id.imageView);
-            imgView.setBackgroundResource(R.drawable.rumah);
+            imgView.setBackgroundResource(R.drawable.ball);
 
             ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
-            imgView2.setBackgroundResource(R.drawable.bicycle);
+            imgView2.setBackgroundResource(R.drawable.boat);
 
             ImageView imgView3 = (ImageView)findViewById(R.id.imageView4);
-            imgView3.setBackgroundResource(R.drawable.airplane);
+            imgView3.setBackgroundResource(R.drawable.chair);
 
             ImageView imgView4 = (ImageView)findViewById(R.id.imageView5);
-            imgView4.setBackgroundResource(R.drawable.computer);
+            imgView4.setBackgroundResource(R.drawable.hat);
         }
 
         else if(currentQuestionIndexReading == 3)
         {
             ImageView imgView = (ImageView)findViewById(R.id.imageView);
-            imgView.setBackgroundResource(R.drawable.bottle);
+            imgView.setBackgroundResource(R.drawable.cow);
 
             ImageView imgView2 = (ImageView)findViewById(R.id.imageView2);
-            imgView2.setBackgroundResource(R.drawable.cawan);
+            imgView2.setBackgroundResource(R.drawable.bird);
 
             ImageView imgView3 = (ImageView)findViewById(R.id.imageView4);
-            imgView3.setBackgroundResource(R.drawable.pinggan);
+            imgView3.setBackgroundResource(R.drawable.lion);
 
             ImageView imgView4 = (ImageView)findViewById(R.id.imageView5);
-            imgView4.setBackgroundResource(R.drawable.teapot);
+            imgView4.setBackgroundResource(R.drawable.rabbit);
         }
 
         questionTextViewReading.setText(QuestionAnswerReading.question[currentQuestionIndexReading]);

@@ -9,21 +9,66 @@
     tools:context=".Permainan_Bacaan">
 
 
-
-    <TextView
-        android:id="@+id/questionReadingGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is the question of reading game"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:textColor="@color/design_default_color_primary_variant"
-        android:fontFamily="@font/jellybelly_regular"
+    <ImageButton
+        android:id="@+id/playbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:foregroundTint="#B39BDF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off"
+        app:tint="#673AB7" />
+
+    <ImageButton
+        android:id="@+id/pausebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        app:tint="#673AB7" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="319dp"
+        android:layout_height="41dp"
+        android:layout_margin="1dp"
+        android:backgroundTint="#F88379"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardCornerRadius="13dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107">
+
+        <TextView
+            android:id="@+id/questionReadingGame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Question"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="29dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.091" />
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/answerOneRead"
@@ -36,23 +81,24 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.239" />
+        app:layout_constraintVertical_bias="0.199" />
+
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintHorizontal_bias="0.132"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354"
+        app:layout_constraintVertical_bias="0.326"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -65,26 +111,24 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintHorizontal_bias="0.797"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.236" />
-
+        app:layout_constraintVertical_bias="0.193" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="155dp"
+        android:layout_height="167dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359"
+        app:layout_constraintVertical_bias="0.326"
         tools:srcCompat="@tools:sample/avatars" />
-
 
     <Button
         android:id="@+id/answerThreeRead"
@@ -101,20 +145,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.555" />
 
+
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.705"
+        app:layout_constraintVertical_bias="0.756"
         tools:srcCompat="@tools:sample/avatars" />
-
 
     <Button
         android:id="@+id/answerFourRead"
@@ -126,23 +170,23 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintHorizontal_bias="0.792"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintVertical_bias="0.552" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706"
+        app:layout_constraintVertical_bias="0.756"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button

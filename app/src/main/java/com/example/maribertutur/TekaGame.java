@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.ImageView;
 import android.app.Activity;
@@ -20,6 +21,7 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
     Button submitBtn;
     public Button TTGameBtn;
     MediaPlayer suara, finishing;
+    ImageButton playBtn, pauseBtn;
 
 
     int score=0;
@@ -58,6 +60,23 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intent);
             }
             //to able user to go back to the Menu page aka MainActivity2 when click on the 'Kembali Ke Menu' Button
+        });
+        playBtn = (ImageButton) findViewById(R.id.imageBtn1);
+        playBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(TekaGame.this, MusicService.class);
+                startService(serviceIntent);
+            }
+        });
+
+        pauseBtn = (ImageButton) findViewById(R.id.imageBtn2);
+        pauseBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent serviceIntent = new Intent(TekaGame.this, MusicService.class);
+                stopService(serviceIntent);
+            }
         });
     }
 
@@ -192,6 +211,7 @@ public class TekaGame extends AppCompatActivity implements View.OnClickListener{
             finishQuiz();
             return;
         }
+
 
         if(currentQuestionIndex==0)
         {

@@ -56,6 +56,7 @@ tools:context=".TekaGame">
     android:layout_centerInParent="true"
     android:orientation="vertical">
 
+
     <Button
         android:id="@+id/ans_A"
         android:layout_width="match_parent"
@@ -96,6 +97,7 @@ tools:context=".TekaGame">
         android:text="Ans D"
         android:textColor="@color/black" />
 
+
 </LinearLayout>
 
 <Button
@@ -131,7 +133,37 @@ tools:context=".TekaGame">
     android:layout_marginBottom="73dp"
     tools:srcCompat="@tools:sample/avatars" />
 
+    <LinearLayout
+        android:layout_width="129dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="7dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageBtn1"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00FFFFFF"
+            android:foregroundTint="#B39BDF"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode_off"
+            app:tint="#673AB7" />
+
+        <ImageButton
+            android:id="@+id/imageBtn2"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@android:drawable/ic_media_pause"
+            app:tint="#673AB7" />
+    </LinearLayout>
+
 
 </RelativeLayout>
-
-

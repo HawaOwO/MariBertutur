@@ -7,14 +7,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity2 extends AppCompatActivity {
-    public Button ArahanBtn, HurufBtn, PerkataanBtn, BacaBtn, TekaBtn;
+    public Button ArahanBtn, HurufBtn, PerkataanBtn, BacaBtn, TekaBtn, logoutBtn;
     ImageButton playBtn, pauseBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        logoutBtn=(Button) findViewById(R.id.logout);
 
         ArahanBtn = (Button) findViewById(R.id.button);
         ArahanBtn.setOnClickListener(new View.OnClickListener() {
@@ -96,4 +99,12 @@ public class MainActivity2 extends AppCompatActivity {
         super.finish();
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
+
+    public void logout(View view) {
+        FirebaseAuth.getInstance().signOut();//logout
+        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        finish();
+    }
+
 }
+

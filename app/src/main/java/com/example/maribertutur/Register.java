@@ -68,8 +68,6 @@ public class Register extends AppCompatActivity {
         }
         */
 
-
-
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,19 +90,14 @@ public class Register extends AppCompatActivity {
                     mPassword.setError("Kata laluan mesti lebih dari 6 huruf");
                     return;
                 }
-
                 progressBar.setVisibility(View.VISIBLE);
-
                 // register the user in firebase
-
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-
                             Toast.makeText(Register.this, "Akaun berjaya dicipta", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),MainActivity2.class));
-
                         }else {
                             Toast.makeText(Register.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
